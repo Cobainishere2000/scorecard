@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    text-align: center; 
+    height: 100vh; 
+    background-color: #1B244A;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 100px;
+    color: #F94F6D;
+    width: 200px;
+    height: 120px;
+    margin-top: 20px;
+    font-family:fantasy;
+    
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-top: 200px;
+    font-size:50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    height: 100vh;
+}
+
+button {
+    background: none;
+    border-color:#9AABD8;
+    color:#9AABD8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    height: 40px;
+    width: 50px;
+}
+
+.timer{
+    
+    font-size: 30px;
+    color: #F94F6D;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    margin-top: 100px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+

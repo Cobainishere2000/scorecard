@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3>HOME</h3>
+                <h2 class="score" id="home-el">0</h2>
+                <div>
+                    <button onclick="increment1H()">+1</button>
+                    <button onclick="increment2H()">+2</button>
+                    <button onclick="increment3H()">+3</button>
+                </div>
+            </div>
+            
+            <div class="timer">
+                <span>&nbsp TIME &nbsp</span>
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>    
+            </div>
+            <div class="column">
+                <h3>GUEST</h3>
+                <h2 class="score" id="guest-el">0</h2>
+                <div>
+                    <button onclick="increment1G()">+1</button>
+                    <button onclick="increment2G()">+2</button>
+                    <button onclick="increment3G()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button  onclick="timer22()"> START</button>
+            <button  onclick="reset()"> PAUSE</button>
+        </div>
+        <script src="index.js"></script>
+        
+    </body>
+</html>
