@@ -64,7 +64,14 @@ button {
     height: 80px;
     width: 200px;
 }
-
+#reset{
+    background:none;
+    border-color:#9AABD8;
+    color:azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    height: 80px;
+    width: 200px;
+}
 
 
 
