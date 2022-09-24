@@ -114,3 +114,8 @@ function timer22(){
 
     intervalID=setInterval(timer,1000);
 }
+
+function clear1(){
+    document.getElementById("home-el").innerText=0
+    document.getElementById("guest-el").innerText=0
+}
