@@ -48,6 +48,22 @@ button {
     margin-top: 100px;
     font-family:'Times New Roman', Times, serif;
 }
+#start{
+    background:none;
+    border-color:#9AABD8;
+    color:chartreuse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    height: 80px;
+    width: 200px;
+}
+#pause{
+    background:none;
+    border-color:#9AABD8;
+    color:red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    height: 80px;
+    width: 200px;
+}
 
 
 
